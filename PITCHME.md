@@ -67,4 +67,4 @@ Supongamos que queremos crear un test para esta clase.
 Haz click con el botón derecho del ratón sobre el paquete donde quieres añadir la nueva clase de prueba.
 
 En el menú emergente selecciona New → JUnit Test Case se abrirá una ventana como la siguiente.
-![New Junit Test](/home/joadelvia/Descargas/creacionTestCase.png  "New Junit Test")
+![New Junit Test](./assets/img/creacionTestCase.png  "New Junit Test")
