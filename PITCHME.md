@@ -9,7 +9,7 @@ Esto significa que se prueba la clase aislándola de su interacción con otras c
 
 +++
 
-## Principios FIRST para la escritura de pruebas unitarias
+### Principios FIRST para la escritura de pruebas unitarias
 **F**: Fast, los test se han de ejecutar rápidamente.
 
 **I**: Isolated, los test se realizan sobre una clase sin interacción con otras.
