@@ -1,48 +1,70 @@
-# Let's Get Started
+# Pruebas unitarias con JUnit
 
 ---
 
-## Add Some Slide Candy
+# ¿Qué son las pruebas unitarias?
+Las pruebas unitarias pretenden probar el comportamiento correcto de las clases de manera aislada.
 
-![](assets/img/presentation.png)
+Esto significa que se prueba la clase aislándola de su interacción con otras clases.
+
++++
+
+# Principios FIRST para la escritura de pruebas unitarias
+**F**: Fast, los test se han de ejecutar rápidamente.
+
+**I**: Isolated, los test se realizan sobre una clase sin interacción con otras.
+
+**R**: Repeatable, el orden de ejecución de los test no debe influir en el resultado final.
+
+**S**: Self-validating, los test se han de ejecutar de modo automático.
+
+**T**: Timely, se han de crear al mismo tiempo que el software que se está creando.
 
 ---
-@title[Customize Slide Layout]
 
-@snap[west span-50]
-## Customize Slide Content Layout
-@snapend
+# El framework JUnit
 
-@snap[east span-50]
-![](assets/img/presentation.png)
-@snapend
+Existen frameworks para realizar pruebas unitarias para prácticamente cualquier lenguaje de programación.
 
----?color=#E58537
-@title[Add A Little Imagination]
+En el caso de Java podemos incluso elegir entre varias opciones.
 
-@snap[north-west]
-#### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
-@snapend
+Una de ellas es JUnit, puede que la más consolidada.
 
-@snap[west span-55]
-@ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
-@ulend
-@snapend
+[JUnit](http://www.junit.org/) JUnit este es el enlace a la página principal de este framework.
 
-@snap[east span-45]
-@img[shadow](assets/img/conference.png)
-@snapend
++++
 
----?image=assets/img/presenter.jpg
+# Crear pruebas unitarias en Eclipse
 
-@snap[north span-100 headline]
-## Now It's Your Turn
-@snapend
+Lo primero que hay que saber es que JUnit ya está integrado en Eclipse. Cuando te descargas Eclipse también te estás descargando JUnit y los plug-ins de Eclipse para el trabajo con este framework.
 
-@snap[south span-100 text-06]
-[Click here to jump straight into the interactive feature guides in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
-@snapend
++++
+
+Supongamos que queremos crear un test para esta clase.
+
+    public class Aritmetica {
+        private float ultimoResultado;
+        public float suma(float primerSumando, float segundoSumando) {
+            return ultimoResultado = primerSumando + segundoSumando;
+        }
+        public float resta(float minuendo, float sustraendo) {
+            return ultimoResultado = minuendo - sustraendo;
+        }
+        public float multiplicacion(float primerFactor,
+            float segundoFactor) {
+            return ultimoResultado = primerFactor * segundoFactor;
+        }
+        public float division(float dividendo, float divisor) {
+            return ultimoResultado = dividendo / divisor;
+        }
+    	public float getUltimaResultado() {
+        	return ultimoResultado;
+    	}
+    }
+    
++++
+
+Haz click con el botón derecho del ratón sobre el paquete donde quieres añadir la nueva clase de prueba.
+
+En el menú emergente selecciona New → JUnit Test Case se abrirá una ventana como la siguiente.
+![New Junit Test](/home/joadelvia/Descargas/creacionTestCase.png  "New Junit Test")
