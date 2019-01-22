@@ -34,12 +34,12 @@ Una de ellas es JUnit, puede que la más consolidada.
 
 +++
 
-## Crear pruebas unitarias en Eclipse
+### Crear pruebas unitarias en Eclipse
 
 Lo primero que hay que saber es que JUnit ya está integrado en Eclipse. Cuando te descargas Eclipse también te estás descargando JUnit y los plug-ins de Eclipse para el trabajo con este framework.
 
 +++
-## Crear pruebas unitarias en Eclipse
+### Crear pruebas unitarias en Eclipse
 Supongamos que queremos crear un test para esta clase.
 
     public class Aritmetica {
@@ -63,7 +63,7 @@ Supongamos que queremos crear un test para esta clase.
     }
     
 +++
-## Crear pruebas unitarias en Eclipse
+### Crear pruebas unitarias en Eclipse
 Haz click con el botón derecho del ratón sobre el paquete donde quieres añadir la nueva clase de prueba.
 
 En el menú emergente selecciona New → JUnit Test Case se abrirá una ventana como la siguiente.
