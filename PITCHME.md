@@ -2,14 +2,14 @@
 
 ---
 
-# ¿Qué son las pruebas unitarias?
+## ¿Qué son las pruebas unitarias?
 Las pruebas unitarias pretenden probar el comportamiento correcto de las clases de manera aislada.
 
 Esto significa que se prueba la clase aislándola de su interacción con otras clases.
 
 +++
 
-# Principios FIRST para la escritura de pruebas unitarias
+## Principios FIRST para la escritura de pruebas unitarias
 **F**: Fast, los test se han de ejecutar rápidamente.
 
 **I**: Isolated, los test se realizan sobre una clase sin interacción con otras.
@@ -22,7 +22,7 @@ Esto significa que se prueba la clase aislándola de su interacción con otras c
 
 ---
 
-# El framework JUnit
+## El framework JUnit
 
 Existen frameworks para realizar pruebas unitarias para prácticamente cualquier lenguaje de programación.
 
@@ -34,12 +34,12 @@ Una de ellas es JUnit, puede que la más consolidada.
 
 +++
 
-# Crear pruebas unitarias en Eclipse
+## Crear pruebas unitarias en Eclipse
 
 Lo primero que hay que saber es que JUnit ya está integrado en Eclipse. Cuando te descargas Eclipse también te estás descargando JUnit y los plug-ins de Eclipse para el trabajo con este framework.
 
 +++
-
+## Crear pruebas unitarias en Eclipse
 Supongamos que queremos crear un test para esta clase.
 
     public class Aritmetica {
@@ -63,7 +63,7 @@ Supongamos que queremos crear un test para esta clase.
     }
     
 +++
-
+## Crear pruebas unitarias en Eclipse
 Haz click con el botón derecho del ratón sobre el paquete donde quieres añadir la nueva clase de prueba.
 
 En el menú emergente selecciona New → JUnit Test Case se abrirá una ventana como la siguiente.
